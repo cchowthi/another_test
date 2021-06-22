@@ -1,0 +1,11 @@
+  
+name: Build and Test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+jobs:
+  - name: Checkout
+    uses: actions/checkout@v2
